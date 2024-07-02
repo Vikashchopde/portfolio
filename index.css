@@ -1,0 +1,514 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+   
+}
+body{
+    background-color: rgb(229, 229, 239);
+}
+.header{
+    height: 4rem;
+    width: 100%;
+      /* border: 2px solid brown;   */
+}
+.navbar{
+ height: 4rem;
+ width: 85%;
+ margin-left: 7rem;
+ /* border: 1px solid red; */
+ border-radius: 3rem;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background-color: rgb(22, 22, 73);
+ position: fixed;
+  top: 0; 
+}
+.logo{
+    height: 3rem;
+    width: 20%;
+    /* border: 1px solid blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo span{
+    font-size: 2.7rem;
+    color: yellow;
+}
+.logo h1{
+    font-size: 2.5rem;
+    color: white;
+}
+.nav{
+    height: 3rem;
+    width: 60%;
+    /* border: 1px solid red; */
+    margin-right: 2rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid blue; */
+}
+.nav .home{
+    color: yellow;
+}
+.nav a{
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(249, 247, 247);
+
+}
+.icon{
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1rem;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+.icon i{
+   font-size: 1.3rem;
+   color: white;
+   cursor: pointer;
+}
+
+html{
+    scroll-behavior: smooth;
+
+}
+
+/* Home section */
+
+.Home{
+    height:100vh ;
+    width: 100%;
+     /* border: 2px solid red;  */
+      /* margin-top: 2rem;   */
+    position: relative;
+     /* border: 2px solid green;  */
+}
+
+.content{
+    position: absolute;
+     top: 5rem;  
+    left: 30rem;
+    height: 10rem;
+    width: 40rem;
+     /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content p{
+    font-size: 1rem;
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 1.3rem;
+    padding: 5px 10px;
+
+}
+
+.content h2{
+    font-size: 2rem;
+    line-height: 70px;
+
+}
+.content span{
+    background-color: rgb(22, 22, 73);
+    padding: 7px 15px;
+    border-radius: 40px;
+    color: yellow;
+    font-size:2.5rem ;
+}
+.content h1{
+    font-size: 3rem;
+}
+/* resume */
+.resume{
+    height: 3rem;
+    width: 17rem;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 28rem;
+    left: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resume span{
+    color: yellow;
+}
+.resume a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: 700;
+    background-color: rgb(22, 22, 73);
+    padding: 7px 12px;
+    border-radius: 50px;
+    color: white;
+    box-shadow: 3px 4px 5px black;
+}
+/* social media */
+.social{
+    height: 20rem;
+    width: 3rem;
+    /* border: 2px solid red; */
+    position: absolute;
+    right: 20rem;
+    top: 16rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.social p{
+    height: 3rem;
+    width: 3rem;
+    /* border: 1px solid red; */
+    background-color: rgb(22, 22, 73);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 3px 4px black;
+}
+.social i{
+   cursor: pointer;
+    font-size: 2rem;
+    color: white;
+}
+
+/* Round */
+
+.round{
+    height: 25rem;
+    width: 30rem;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 14rem;
+    left: 35rem;
+}
+.curcal{
+    position: absolute;
+    top: 4rem;
+    left: 2rem;
+    bottom: 4px;
+    height:25rem ;
+    width:25rem ;
+    /* border: 2px solid blueviolet; */
+   border-radius: 50%;
+   background-color: rgb(24, 24, 83);
+   box-shadow: 5px 6px 7px black;
+}
+.curcal img{
+    position: absolute;
+    top: -5rem;
+    left: 1.5rem;
+    height: 25rem;
+    width: 23rem;
+}
+
+/* About section */
+.about{
+    height: 100vh;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-main{
+    /* border: 2px solid rgb(32, 103, 185); */
+    margin-top: 5rem;
+    height: 90%;
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about .img{
+    height: 20rem;
+    width: 20rem;
+    /* border: 2px solid rgb(13, 0, 255); */
+    background-color: rgb(24, 24, 83);
+    border-radius: 50%;
+    box-shadow: 5px 6px 8px black;
+}
+.about .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 4px 5px 7px black;
+    border-top-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    /* background-color: rgb(170, 170, 226); */
+}
+.about .content1{
+    height: 20rem;
+    width: 50rem;
+    /* border: 2px solid red;   */
+}
+.content1 h2{
+    font-size: 2rem;
+    font-weight: 600;
+    color:rgb(24, 24, 83) ;
+}
+.content1 .content-box{
+    height: 80%;
+    width: 95%;
+     /* border: 2px solid blue;  */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 2rem;
+}
+.leftbox{
+    height: 80%;
+    width: 40%;
+    /* border: 2px solid burlywood; */
+}
+.leftbox p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: rgb(24, 24, 83);
+}
+.leftbox p span{
+    color: rgb(22, 83, 32);
+}
+.Rightbox{
+    height: 80%;
+    width: 40%;
+    /* border: 2px solid burlywood; */
+}
+.Rightbox p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: rgb(24, 24, 83);
+}
+
+/* contact section */
+.contact{
+    height: 100vh;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-section{
+    height: 90%;
+    width: 85%;
+    /* border: 2px solid blue; */
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact-section .img{
+    height: 22rem;
+    width: 22rem;
+     /* border: 2px solid rgb(13, 0, 255);  */
+    background-color: rgb(24, 24, 83);
+    border-radius: 50%;
+    box-shadow: 5px 6px 8px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contact-section .img img{
+    height: 20rem;
+    width: 20rem;
+    object-fit: cover;
+    /* border: 2px solid red; */
+}
+.form{
+    height: 33rem;
+    width: 33rem;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    background-color: #d0d6e9;
+}
+.form input{
+    height: 3rem;
+    width: 30rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+.form textarea{
+    height: 10rem;
+    width: 30rem;
+   border: none;
+   cursor: pointer;
+   padding: 5px;
+   font-size: 1rem;
+}
+.form button{
+    height: 2rem;
+    width: 8rem;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 3px 4px 6px black;
+    background-color: rgb(24, 24, 83);
+    color: white;
+}
+
+/* skill section */
+.Skills{
+    height: 100vh;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill-section {
+    height: 90%;
+    width: 85%;
+     /* border: 2px solid blue;  */
+    margin-top: 5rem;
+}
+.skill-section h1{
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(24, 24, 83);
+    font-weight: 600;
+}
+.skill-section p{
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    text-align: center;
+}
+.skill-boxes{
+    height: 70%;
+    width: 85%;
+     /* border: 2px solid red;  */
+    margin-left: 6rem;
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.skill-boxes .skillb1{
+     height: 5rem;
+     width: 28rem;
+     /* border: 2px solid blue; */
+    
+}
+.skillb1 .text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.progress{
+    height: 1rem;
+    width: 28rem;
+    border: 0.5px solid rgb(220, 218, 218);
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgb(201, 198, 198);
+}
+.progress .progress-child{
+    height:1rem ;
+    width: 90%;
+    background-color: rgb(24, 24, 83);
+    border-radius: 20px;
+}
+
+.Projects{
+    height: 100vh;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Projects .project-section{
+    height: 90%;
+    width: 80%;
+    /* border: 2px solid blue; */
+    margin-top: 5rem;
+}
+.project-section h1{
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(24, 24, 83);
+    font-weight: 800;
+}
+.project-section p{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.1rem;
+}
+.project-section .project-parent{
+    height: 90%;
+    width: 90%;
+    /* border: 2px solid red; */
+    margin-left: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+ .project-box1{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-image: url('img/project2.png'); /* Replace with your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.project-box1:hover .info{
+    transform: translateY(0);
+}
+.info{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(24, 24, 83); /* Semi-transparent white background for text */
+    transform: translateY(100%);
+    transition: transform 0.5s ease;
+}
+.info h3{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #faf9f9;
+}
+.info p{
+    font-size: 1rem;
+    color: #f7f4f4;
+    line-height: 1.4;
+}
+
+
