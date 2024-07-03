@@ -95,125 +95,126 @@ html{
      /* border: 2px solid green;  */
 }
 
-.content{
-    position: absolute;
-     top: 5rem;  
-    left: 30rem;
-    height: 10rem;
-    width: 40rem;
-     /* border: 2px solid red; */
+.main{
+    height: 90%;
+    width: 100%;
+    /* border: 2px solid red; */
     display: flex;
+    flex-direction: column; 
+    justify-content:center;
+    align-items: center;
+    /* background: url(/img/project2.png) no-repeat center center/cover; */
+    z-index: 100;
+}
+.content{
+    height: 35%;
+    width: 40rem;
+    /* border: 2px solid rgb(203, 230, 71);   */
+    display: flex;  
     flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
 }
+
 .content p{
-    font-size: 1rem;
-    font-weight: 500;
-    border: 1px solid black;
-    border-radius: 1.3rem;
-    padding: 5px 10px;
-
+    font-size: 1.1rem;
+    /* border: 1px solid black; */
+    padding: 5px 8px;
+    border-radius: 20px;
 }
-
 .content h2{
     font-size: 2rem;
-    line-height: 70px;
+    font-weight: 600;
+}
 
-}
 .content span{
-    background-color: rgb(22, 22, 73);
-    padding: 7px 15px;
-    border-radius: 40px;
     color: yellow;
-    font-size:2.5rem ;
+    background-color: rgb(24, 24, 83);
+    padding: 5px 10px;
+    border-radius: 25px;
 }
+
 .content h1{
-    font-size: 3rem;
+    font-size: 2.5rem;
+}
+
+.main-content{
+    height: 60% ;
+    width: 70%;
+    /* border: 2px solid rgb(36, 179, 55); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 /* resume */
 .resume{
     height: 3rem;
-    width: 17rem;
-    /* border: 1px solid red; */
-    position: absolute;
-    top: 28rem;
-    left: 10rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.resume span{
-    color: yellow;
+    width: 16rem;
+     /* border: 1px solid red;  */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: rgb(24, 24, 83);
+     border-radius: 30px;
+     box-shadow: 3px 4px 6px black;
 }
 .resume a{
-    font-size: 1.5rem;
     text-decoration: none;
-    font-weight: 700;
-    background-color: rgb(22, 22, 73);
-    padding: 7px 12px;
-    border-radius: 50px;
+    font-size: 1.5rem;
     color: white;
-    box-shadow: 3px 4px 5px black;
+    font-weight: 700;
+    padding: 3px 6px;
+    
+}
+.resume span {
+    font-size: 1.8;
+    color: yellow;
 }
 /* social media */
 .social{
     height: 20rem;
     width: 3rem;
-    /* border: 2px solid red; */
-    position: absolute;
-    right: 20rem;
-    top: 16rem;
+    /* border: 2px solid red;  */
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    justify-content: space-between;
+    /* background-color: rgb(24, 24, 83); */
+    border-radius: 20px;
 }
+
 .social p{
+    background-color: rgb(24, 24, 83);
+    color: white;
     height: 3rem;
     width: 3rem;
-    /* border: 1px solid red; */
-    background-color: rgb(22, 22, 73);
-    border-radius: 50px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    box-shadow: 2px 3px 4px black;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 2px 3px 5px black;
+    cursor: pointer;
 }
 .social i{
-   cursor: pointer;
     font-size: 2rem;
-    color: white;
 }
+
 
 /* Round */
 
-.round{
-    height: 25rem;
-    width: 30rem;
-    /* border: 2px solid red; */
-    position: absolute;
-    top: 14rem;
-    left: 35rem;
-}
-.curcal{
-    position: absolute;
-    top: 4rem;
-    left: 2rem;
-    bottom: 4px;
-    height:25rem ;
-    width:25rem ;
-    /* border: 2px solid blueviolet; */
+.photo{
+   height: 20rem;
+   width: 20rem;
    border-radius: 50%;
    background-color: rgb(24, 24, 83);
-   box-shadow: 5px 6px 7px black;
+   box-shadow: 3px 4px 6px black;
+   /* border: 2px solid red; */
+   /* margin-left: -10rem; */
 }
-.curcal img{
-    position: absolute;
-    top: -5rem;
-    left: 1.5rem;
-    height: 25rem;
-    width: 23rem;
+.photo img{
+    height: 20rem;
+    width: 20rem;
+    margin-top: -4rem;
 }
 
 /* About section */
