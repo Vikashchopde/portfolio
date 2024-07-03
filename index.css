@@ -86,9 +86,9 @@ html{
 
 /* Home section */
 
-.Home{
-    height:100vh ;
-    width: 100%;
+#Home{
+   height:100vh ;
+   width: 100%; 
      /* border: 2px solid red;  */
      /* margin-top: 3rem;   */
 }
