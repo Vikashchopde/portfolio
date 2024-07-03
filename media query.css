@@ -25,11 +25,20 @@
     .logo h1{
         font-size: 1.3rem;
     }
+    .icon{
+         height: 3rem;
+    width: 3rem;
+    margin-right: 1rem;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    }
     .icon i{
    font-size: 1.3rem;
    color: white;
    cursor: pointer;
-   opacity: 1;
     }
     .nav{
         height: 3rem;
