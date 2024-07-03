@@ -3,10 +3,7 @@
    
     .header{
         background-color: black;
-         border: 2px solid red; 
-         position: fixed;
-         top: 0;
-         left: 0;
+         border: 2px solid red;   
     }
     .navbar{
         height: 3rem;
@@ -14,6 +11,9 @@
         margin-left: 0;
         border-radius: 2rem;
         margin-top: 0.3rem;
+       position: fixed;
+         top: 0;
+         left: 0;
     }
     .logo{
         margin-left: 0.5rem;
