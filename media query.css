@@ -27,7 +27,7 @@
         font-size: 1.3rem;
     }
     .icon{
-        opacity: 0;
+        opacity: 1;
     }
     .nav{
         height: 3rem;
@@ -37,6 +37,7 @@
         justify-content: space-between;
         align-items: center;
         border: 2px solid black;
+        opacity:0;
     }
     
     .nav a{
