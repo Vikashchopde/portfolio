@@ -7,7 +7,7 @@
         width: 100%;
         margin-left: 0;
         border-radius: 2rem;
-        position: fixed;
+        position: absolute;
         top: 0;
         left: 0;
         display: flex;
@@ -17,7 +17,7 @@
        
     }
     .logo{
-        margin-left: 1rem;
+        margin-left: 1.5rem;
         width:15%;
     }
     .logo span {
