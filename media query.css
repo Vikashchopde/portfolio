@@ -3,6 +3,9 @@
     .header{
         height: 4rem;
         width: 100%;
+        position: fixed;
+        top: 0;
+        left:0;
         /* border: 2px solid red; */
     }
     .navbar{
