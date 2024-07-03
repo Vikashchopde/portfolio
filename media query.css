@@ -48,15 +48,12 @@
 
     
     /* Home section */
-    .home{
-        height: 100%;
-        width: 100%;
-        /* position: relative; */
-        border: 2px solid brown;
+    #home{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
+        gap: 1rem;
     }
     .main{
     display: flex;
