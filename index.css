@@ -8,14 +8,9 @@
 body{
     background-color: rgb(229, 229, 239);
 }
-.header{
-   height: 4rem;
-    width: 100%; */
-      /* border: 2px solid brown;   */
-}
 .navbar{
  height: 4rem;
- width: 85%;
+ width: 100%;
   margin-left: 7rem; 
  /* border: 1px solid red; */
  border-radius: 3rem;
