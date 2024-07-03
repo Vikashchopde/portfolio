@@ -1,7 +1,9 @@
 
 @media only screen and (max-width: 600px) {
    
-    
+    .header{
+       height:3rem;
+    }
     .navbar{
         height: 3rem;
         margin-left: 0;
