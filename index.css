@@ -10,8 +10,8 @@ body{
 }
 .navbar{
  height: 4rem;
- width: 80%;
-  margin-left: 7rem; 
+ width: 85%;
+  margin-left: 5rem; 
  /* border: 1px solid red; */
  border-radius: 3rem;
  display: flex;
