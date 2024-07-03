@@ -25,7 +25,9 @@
     .logo h1{
         font-size: 1.3rem;
     }
-    .icon{
+    .icon i{
+        height:3rem;
+        width:3rem;
         opacity: 1;
     }
     .nav{
