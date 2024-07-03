@@ -270,7 +270,7 @@
      }
      .skill-boxes{
          height: 70%;
-         width: 50%;
+         width: 40%;
          /* border: 2px solid red;  */
          display: flex;
          flex-wrap: wrap;
