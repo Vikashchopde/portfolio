@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -8,10 +9,11 @@
 body{
     background-color: rgb(229, 229, 239);
 }
+
 .navbar{
  height: 4rem;
  width: 85%;
-  margin-left: 5rem; 
+  margin-left: 2rem; 
  /* border: 1px solid red; */
  border-radius: 3rem;
  display: flex;
@@ -79,12 +81,78 @@ html{
 
 }
 
+/* side nav */
+.side-bar{
+    width: 500px;
+    height: 60%;
+    border-radius: 10px;
+    position: absolute;
+    top: 3rem;
+    z-index: 11;
+    left: -500px;
+    transition: all 0.3s linear;
+    /* border: 2px solid red;  */
+    display: flex;
+    position: relative;
+     display: none; 
+
+  }
+  .sidebar-ele{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: space-around;
+       background-color: rgb(191, 191, 219);
+      width: 325px;
+      height: 300px;
+      /* border: 1px solid green; */
+  }
+  .sidebar-ele a{
+      text-decoration: none;
+      height: 2rem;
+      width: 10rem;
+      font-size: 24px;
+      font-weight: 500;
+       padding: 5px 10px; 
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+  }
+  .sidebar-ele a:hover{
+    border: 1px solid black;
+    box-shadow: 1px 1px 3px rgb(7, 6, 6);
+    color: yellow;
+  }
+  .right{
+   /* border: 1px solid hotpink; */
+   width: 2rem;
+   height: 2rem;
+   position: absolute;
+   top: 0.7rem;
+   right: 1rem;
+    /* transition: all 0.3s linear; */
+  }
+  .right i{
+      color: white;
+      font-size: 25px;
+      cursor: pointer;
+      margin-left: 0.6rem;
+      /* border: 1px solid hotpink; */
+  } 
+
+
+
 /* Home section */
 
 #Home{
     height:100vh ;
     width: 100%;
+    position: relative;
+    transition: side 1s ease-in ;
      /* margin-top: 3rem;   */
+     /* border: 2px solid red; */
 }
 
 .main{
@@ -95,6 +163,7 @@ html{
     flex-direction: column; 
     justify-content:center;
     align-items: center;
+    position: relative;
     /* background: url(/img/project2.png) no-repeat center center/cover; */
 }
 .content{
@@ -504,5 +573,3 @@ html{
     color: #f7f4f4;
     line-height: 1.4;
 }
-
-
