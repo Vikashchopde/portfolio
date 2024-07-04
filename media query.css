@@ -1,5 +1,68 @@
 
+
 @media only screen and (max-width: 600px) {
+    
+    /* side navbar */
+    .side-bar{
+        position: absolute;
+        left: -500px;
+        transition: all 0.3s linear;
+        display: flex;
+        z-index: 11;
+        max-width: 100%;
+        height: 60%;
+        /* position: relative; */
+        /* background-color: aquamarine; */
+    
+      }
+      .sidebar-ele{
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           justify-content: space-around;
+           /* border: 1px solid green;  */
+           background-color: rgba(191, 191, 219, 0.259);
+           backdrop-filter: blur(10px);
+           width: 325px;
+           height: 300px;
+           /* background-color: rgb(84, 84, 156); */
+      }
+      .sidebar-ele a{
+          text-decoration: none;
+          height: 2rem;
+          width: 10rem;
+          font-size: 20px;
+          font-weight: 500;
+           padding: 5px 10px; 
+          color: white;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          
+      }
+      .sidebar-ele a:hover{
+        border: 1px solid black;
+        box-shadow: 1px 1px 3px rgb(7, 6, 6);
+        color: yellow;
+      }
+      .right{
+        /* border: 1px solid hotpink;  */
+       width: 2rem;
+       height: 2rem;
+       position: absolute;
+       top: 0.7rem;
+       right: 1rem;
+        /* transition: all 0.3s linear; */
+      }
+      .right i{
+          color: white;
+          font-size: 25px;
+          cursor: pointer;
+          /* border: 1px solid hotpink; */
+      } 
+      .right i:hover{
+        color: darkorange;
+      }
 
     .navbar{
         background-color: rgb(24, 24, 83);
@@ -27,7 +90,7 @@
         font-size: 1.3rem;
     }
     .icon{
-         height: 3rem;
+     height: 3rem;
     width: 3rem;
     margin-right: 1rem;
     /* border: 2px solid red; */
@@ -35,7 +98,9 @@
     justify-content: center;
     align-items: center;
     opacity: 1;
+    transition: all 0.3s linear;
     }
+
     .icon i{
    font-size: 1.3rem;
    color: white;
@@ -60,12 +125,22 @@
         color: rgb(249, 247, 247);
     
     }
- 
+      
+    #Home{
+        height:100vh ;
+        width: 100%;
+        position: relative;
+        transition: side 1s ease-in ;
+         /* margin-top: 3rem;   */
+         /* border: 2px solid red; */
+    }
+
      .main{
      display: flex;
      flex-direction: column; 
      justify-content:space-between;
      align-items: center;
+     position: relative;
      /* border: 2px solid rgb(0, 204, 255); */
      }
  
@@ -265,7 +340,7 @@
      .skill-section {
          height: 100%;
          width: 90%;
-          /* border: 2px solid blue; */ 
+         /* border: 2px solid blue;   */
          margin-top: 9rem;
      }
      .skill-boxes{
